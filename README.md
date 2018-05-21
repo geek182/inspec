@@ -11,3 +11,7 @@ inspec shell -t ssh://root:password@target
 #RUN exec to a remote target from a profile \
 inspec exec /root/my_nginx -t ssh://root:password@target
 
+#my_nginx is a example of profile \
+to execute on docker container \
+inspec exec my_nginx/ -t docker://a2b831014082 
+

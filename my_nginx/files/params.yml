@@ -1,0 +1,8 @@
+version: 1.10.3
+modules:
+ - http_ssl
+ - stream_ssl
+folders:
+ - '/tmp'
+ - '/opt'
+ - '/app'
